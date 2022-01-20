@@ -1,0 +1,59 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  background-image: url('../../img/slider-bg3.jpg');
+}
+
+.login-box {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 93, 14, 255) 0%,
+    rgba(244, 170, 47, 255) 100%
+  );
+  width: 800px;
+  height: 400px;
+  left: 580px;
+  bottom: 150px;
+  z-index: 2;
+}
+
+.login-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.login-title > p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.login-form > * {
+  height: 50px;
+  width: 410px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 25px;
+  padding: 0px 25px;
+  background-color: #f7f7f7;
+}
+
+.login-form > button {
+  color: #f97f1d;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  cursor: pointer;
+}

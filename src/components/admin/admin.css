@@ -1,0 +1,62 @@
+.form-admin {
+  padding: 10% 15%;
+}
+
+.form-admin::before {
+  background-image: url("../../img/form-background.png");
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  background-size: 100%;
+  filter: brightness(51%);
+  top: 161px;
+  left: 0;
+  width: 100%;
+  height: 1070px;
+  z-index: -1;
+}
+
+.form-admin-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-admin-title > p {
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+  color: #878787;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+select {
+  color: #333333;
+}
+
+.admin-container-inputs > input {
+  height: 50px;
+  padding: 0px 25px;
+  background-color: #f7f7f7;
+  border: 1px solid #f0f0f0;
+}
+
+.admin-container-inputs {
+  display: grid;
+  grid-template-columns: 570px 570px;
+  grid-template-rows: auto;
+  column-gap: 35px;
+  row-gap: 30px;
+}
+
+.formButtonAdmin {
+  grid-column: 1 / span 2;
+  margin: 0px 409px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  background: linear-gradient(to bottom right, #ff3e00, #ffbe30) !important;
+}
